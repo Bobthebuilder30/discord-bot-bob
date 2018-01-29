@@ -48,8 +48,8 @@ async def drop(*args):
 #flip 
 @bob_the_builder.command()
 async def flip(*args):
-    drop = ['Yes :ok_hand::skin-tone-2: ','No <:DansGame:259203114207412224> ']
-    return await bob_the_builder.say(":crystal_ball: \n \n" + "__**" + random.choice(drop) + "**__")
+    drop = ['Yes :ok_hand::skin-tone-2:','No <:DansGame:259203114207412224>']
+    return await bob_the_builder.say(":crystal_ball:\n" + "__**" + random.choice(drop) + "**__")
  
 
 bob_the_builder.run(secrets.BOT_TOKEN)
