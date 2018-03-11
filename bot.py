@@ -50,6 +50,11 @@ async def drop(*args):
 async def flip(*args):
     drop = ['Yes :ok_hand::skin-tone-2:','No <:DansGame:259203114207412224>']
     return await bob_the_builder.say(":crystal_ball:\n \n" + "__**" + random.choice(drop) + "**__")
- 
+
+#dead
+@bob_the_builder.command()
+async def dead(*args):
+   return await bob_the_builder.say(".play https://www.youtube.com/watch?v=4zLfCnGVeL4")
+
 
 bob_the_builder.run(secrets.BOT_TOKEN)
